@@ -1,0 +1,321 @@
+body {
+    margin: 0px;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vw;
+    font-family: 'Acme';
+    padding: 1px 1vw;
+    margin: 0vw;
+    color: rgb(202, 202, 202);
+}
+
+nav a:hover {
+    background-color: rgb(202, 202, 202);
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 10vw;
+    line-height: 35vw;
+}
+
+.Navigation{
+    position: fixed;
+    top: 0vw;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+span, td , .curriculum p{
+    font-family: 'ABeeZee';
+}
+
+.Beginning {
+    background-color: #23395B;
+    padding: 4% 0 4%;
+    height: 50vw;
+    text-align: center;
+}
+
+.img_word {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.I {
+    background-color: rgb(252, 237, 210);
+    margin-top: 2vw;
+}
+
+.tainan {
+    text-align: center;
+}
+
+.gallery {
+    display: inline-block;
+    margin: 1vw;
+    border: 0.5rem solid rgba(165, 42, 42, 0.76);
+    border-radius: 0.5vw;
+    width: 20%;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%
+}
+
+.aboutTainan p {
+    width: 70%;
+    margin: auto;
+    font-size: 1rem;
+    padding-bottom: 1vw;
+}
+
+.aboutTainan p::first-letter {
+    font-size: 2rem;
+}
+
+.I .img_word span {
+    font-size: 6vw;
+    padding: 10vw;
+}
+
+.Information table {
+    width: 80%;
+    border-spacing: 7vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img[alt="My face"] {
+    width: 25%;
+    padding: 3vw;
+    margin: 2vw;
+    transition-duration: 0.5s;
+}
+
+img[alt="My face"]:hover {
+    border: 0.7vw solid #9dce9b;
+    border-radius: 3vw;
+}
+
+.Information td {
+    border: 1vw solid #9dce9b;
+    border-radius: 5vw;
+    font-size: 2vw;
+    padding: 2vw;
+}
+
+.likeandwish {
+    margin: 0vw auto;
+}
+
+.likeandwish h4 {
+    font-size: 2vw;
+    font-family: 'ABeeZee';
+    margin: 1vw;
+}
+
+.like , .wish{
+    display: inline-block;
+    border: 1vw solid #9dce9b;
+    width: 30%;
+    margin-left: 13%;
+    margin-bottom: 5vw;
+    text-align: center;
+    border-radius: 3vw;
+}
+
+.like ol, .wish ul {
+    display: inline-block;
+    margin-top: 0vw;
+    padding-left: 0vw;
+    text-align: left;
+}
+
+.like ol li, .wish ul li {
+    text-align: left;
+    font-size: 1.5vw;
+    font-family: 'ABeeZee';
+}
+
+.tainan {
+    width: 90%;
+    margin: auto;
+}
+
+.tainan h4 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.tainan img[alt="tainan"] {
+    width: 50%;
+    margin: 0% 25%;
+}
+
+.Now {
+    background-color: #E3BAC6;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+}
+
+.Now h2, .Interest h2 {
+    text-align: center;
+    font-size: 10vw;
+    margin: 0vw;
+    font-family: 'Acme';
+}
+
+.Now .img_word img {
+    width: 40vw;
+    padding: 3vw 5vw 5vw 10vw;
+}
+
+.Now .img_word span {
+    font-size: 3vw;
+    /* width: 50%; */
+    padding: 5% 0 5% 5%;
+}
+
+.curriculum p {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.curTable {
+    overflow-x: scroll;
+}
+
+.curriculum table {
+    /* width: 1200px; */
+    border-collapse: collapse;
+    /* overflow-x: scroll; */
+    margin: auto;
+}
+
+.curriculum th, .curriculum td {
+    border: 0.2vw solid black;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5vw;
+}
+
+.curriculum td {
+    width: 165px;
+    min-width: 150px;
+}
+
+.curTable a {
+    text-decoration: none;
+}
+
+.curTable span {
+    font-size: 0.7rem;
+}
+
+.Interest h3 {
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 6vw;
+    font-family: 'ABeeZee';
+}
+
+table.movie {
+    width: 100%;
+    border-spacing: 2vw;
+    padding: 2vw;
+}
+
+/* table.movie td , table.exercise td , table.music td{
+    border: 3px solid black;
+} */
+
+table.movie img, table.exercise img, table.music img {
+    width: 100%;
+}
+
+table.exercise {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 2vw;
+}
+
+
+table.music {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 2vw;
+}
+
+.name, .email {
+    background-color: #FDECEF;
+    width: 3.5vw;
+    height: 3.5vw;
+    border: 2px solid rgba(0, 0, 0, 0.233);
+    border-radius: 2.5vw;
+    margin: auto;
+    /* display: inline-block; */
+    position: fixed;
+    transition-duration: 0.5s;
+    right: 2vw;
+    overflow: hidden;
+}
+
+.name {
+    bottom: 9vw;
+}
+
+.name_email img {
+    width: 3.5vw;
+    vertical-align: middle;
+}
+
+.name_email span {
+    font-size: 1vw;
+}
+
+.email {
+    bottom: 4vw;
+}
+
+.name:hover {
+    width: 8vw;
+}
+
+.email:hover {
+    width: 16vw;
+}
+
+footer {
+    background-color: gainsboro;
+    padding: 1vw;
+    height: auto;
+}
+
+footer p {
+    font-size: 1vw;
+    padding-left: 1vw;
+    line-height: 2vw;
+}
+
+footer div {
+    display: inline;
+}
+
+footer a {
+    float: right;
+}
+
+footer img {
+    display: inline;
+    width: 2vw;
+}
