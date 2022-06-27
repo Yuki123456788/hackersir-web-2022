@@ -1,0 +1,27 @@
+div
+  //- Navbar
+  nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top
+    div.container-fluid
+      router-link.navbar-brand(:to="{name:'Home'}") 逢甲大學黑客社
+      button.navbar-toggler(type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation")
+        span.navbar-toggler-icon
+      div.collapse.navbar-collapse#navbarNav
+        div.navbar-nav.d-flex.justify-content-between.w-100
+          ul.navbar-nav
+            li.nav-item.mx-2
+              router-link.nav-link(:to="{name:'Home'}") 首頁
+            li.nav-item.mx-2
+              router-link.nav-link(:to="{name:'Activity'}") 近期活動
+            li.nav-item.mx-2
+              router-link.nav-link(:to="{name:'Rule'}") 社團規章
+            li.nav-item.mx-2
+              router-link.nav-link(:to="{name:'Partner'}") 合作夥伴
+            li.nav-item.mx-2
+              router-link.nav-link(:to="{name:'History'}") 歷史軌跡
+            li.nav-item.mx-2
+              router-link.nav-link(:to="{name:'Cadre', params:{year:1, cadre: 1}}") 歷屆幹部
+          div.navbar-nav
+            a.nav-item.btn.btn-outline-primary(target="_blank" href="https://join.hackersir.org/join/join") Join Us
+  //- Main content
+  div
+  block content

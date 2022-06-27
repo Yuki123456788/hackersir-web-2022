@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>逢甲大學黑客社</title>
+
+  <link rel="icon" type="image/svg+xml" href="static/favicon.svg">
+  <link rel="icon" type="image/ico" href="static/favicon.ico">
+
+  <!-- <meta name="description" content="" /> -->
+
+  <meta property="og:title" content="逢甲大學黑客社" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="//hackersir.org/" />
+  <!-- <meta property="og:image" content="static/image/logo-256.png" /> -->
+  <meta property="og:image" content="//hackersir.org/img/logo-256.png" />
+  <meta property="og:site_name" content="逢甲大學黑客社" />
+  <!-- <meta property="og:description" content="" /> -->
+
+  <meta property="twitter:title" content="逢甲大學黑客社">
+  <!-- <meta property="twitter:description" content=""> -->
+  <!-- <meta property="twitter:image:src" content="static/image/logo-256.png"> -->
+  <meta property="twitter:image:src" content="//hackersir.org/img/logo-256.png">
+  <meta property="twitter:image:width" content="256">
+  <meta property="twitter:image:height" content="256">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <style>
+    body {
+      font-size: 20px;
+      background: #ffffff no-repeat center center / cover fixed;
+      min-height: calc(100vh - 60px);
+    }
+
+    /* 補完 Material Design for Bootstrap 缺少，卻會用到的 Bootstrap 4.1 class */
+    .flex-fill {
+      -ms-flex: 1 1 auto !important;
+      flex: 1 1 auto !important;
+      flex-grow: 1 !important;
+      flex-shrink: 1 !important;
+      flex-basis: auto !important;
+    }
+
+    .flex-grow-1 {
+      -ms-flex-positive: 1 !important;
+      flex-grow: 1 !important;
+    }
+
+    .flex-shrink-1 {
+      -ms-flex-negative: 1 !important;
+      flex-shrink: 1 !important;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+  <script>
+    $(function () {
+      $(document).click(function (event) {
+        var clickover = $(event.target);
+        var _opened = $(".navbar-collapse").hasClass("navbar-collapse collapse show");
+        if (_opened === true && !clickover.hasClass("navbar-toggler") && !clickover.hasClass("dropdown-toggle")) {
+          $("button.navbar-toggler").click();
+        }
+      });
+    });
+  </script>
+  
+</body>
+</html>
