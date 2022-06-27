@@ -1,0 +1,121 @@
+[
+    {
+        "date": "",
+        "title": "起源",
+        "image": "static/image/FISA.png",
+        "description": "為了參加國家資通安全競賽「金盾獎」而創立的一個小型的讀書會，原名「資通安全策進會」，經過一連串的傳承，演變成現在的「資訊安全策進會」。",
+        "link": ""
+    },
+    {
+        "date": "",
+        "title": "",
+        "image": "http://hackersir.org/2015/img/logo/HackerSir.png",
+        "description": "資訊安全策進會（FISA）是一群資工系的學生玩技術的小天堂，會開讀書會分享近日學到的新奇技術。",
+        "link": ""
+    },
+    {
+        "date": "2014",
+        "title": "轉捩點",
+        "image": "http://hackersir.org/2015/img/logo/HackerSir.png",
+        "description": "某天會議當中，黑客社初代社長提出了成立正式社團的想法，希望把資安概念及技術從資工的框框移到全校，除了提供想學習資安概念及技術的學生一個合法的環境，同時也嘗試推翻普羅大眾對於黑客（駭客）的想法，提倡黑客精神並培養眾人動手做的能力。",
+        "link": ""
+    },
+    {
+        "date": "2014",
+        "title": "想法確立",
+        "image": "http://hackersir.org/2015/img/logo/HackerSir.png",
+        "description": "經過一番地討論，期間經過FISA成員的多次辯論，最終在2014年10月決議成立社團，也就是現在的「黑客社」。",
+        "link": ""
+    },
+    {
+        "date": "2014-12-25",
+        "title": "社團成立",
+        "image": "http://hackersir.org/2015/img/logo/HackerSir.png",
+        "description": "黑客社成立囉ヾ(@°▽°@)ノ",
+        "link": ""
+    },
+    {
+        "date": "2014",
+        "title": "第一屆",
+        "image": "http://hackersir.org/2015/img/logo/HackerSir.png",
+        "description": "",
+        "link": ""
+    },
+    {
+        "date": "2015",
+        "title": "第二屆",
+        "image": "http://hackersir.org/2015/img/logo/HackerSir.png",
+        "description": "",
+        "link": ""
+    },
+    {
+        "date": "2016",
+        "title": "社網 2.0",
+        "image": "",
+        "description": "黑客社社網動工",
+        "link": "https://github.com/HackerSir/hackersir-web-2015"
+    },
+    {
+        "date": "2016",
+        "title": "第三屆",
+        "image": "http://hackersir.org/2015/img/logo/HackerSir.png",
+        "description": "",
+        "link": ""
+    },
+    {
+        "date": "2017",
+        "title": "第四屆",
+        "image": "http://hackersir.org/2015/img/logo/HackerSir.png",
+        "description": "",
+        "link": ""
+    },
+    {
+        "date": "2018",
+        "title": "社網 3.0",
+        "image": "",
+        "description": "新版本的黑客社社網動工",
+        "link": "https://github.com/HackerSir/hackersir-web-2018"
+    },
+    {
+        "date": "2018",
+        "title": "第五屆",
+        "image": "http://hackersir.org/2015/img/logo/HackerSir.png",
+        "description": "",
+        "link": ""
+    },
+    {
+        "date": "2019",
+        "title": "第六屆",
+        "image": "http://hackersir.org/2015/img/logo/HackerSir.png",
+        "description": "",
+        "link": ""
+    },
+    {
+        "date": "2020",
+        "title": "第七屆",
+        "image": "http://hackersir.org/2015/img/logo/HackerSir.png",
+        "description": "",
+        "link": ""
+    },
+    {
+        "date": "2021",
+        "title": "第八屆",
+        "image": "http://hackersir.org/2015/img/logo/HackerSir.png",
+        "description": "",
+        "link": ""
+    },
+    {
+        "date": "2021-12-19",
+        "title": "資安週",
+        "image": "",
+        "description": "資安週人數破紀錄！！！",
+        "link": "https://www.fcu.edu.tw/news/2021122403/?utm_campaign=fb-fcuweekly&utm_id=pr01&utm_medium=facebook-news&utm_source=Facebook"
+    },
+    {
+        "date": "2022",
+        "title": "社網 4.0",
+        "image": "",
+        "description": "全新版本的黑客社社網動工",
+        "link": ""
+    }
+]
