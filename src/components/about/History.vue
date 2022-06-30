@@ -35,9 +35,9 @@
           p.text-start.text-muted.m-0
             small Now
           h3.bg-secondary.text-white.rounded-3.w-50.mt-1.mx-auto Now
-          p.text-center Lorem
+          p.text-center 黑客社持續進行中～
           div.ratio.ratio-1x1.w-25.mx-auto.d-block.mb-2
-            img.img-fluid.rounded-circle(src="" alt="" style="object-fit: cover;")
+            img.img-fluid.rounded-circle(src="http://hackersir.org/2015/img/logo/HackerSir.png" alt="" style="object-fit: cover;")
 </template>
 
 <script>
