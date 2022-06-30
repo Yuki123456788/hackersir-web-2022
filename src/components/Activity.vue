@@ -23,7 +23,7 @@
             img.card-img-top.rounded-circle(src="static/image/Workshop.png" style="object-fit: cover;" alt="")
           div.card-body
             h5.card-title.mb-3 講座＆工作坊
-            a.btn.btn-primary(target="_blank" href="http://act.hackersir.org/") Go
+            a.btn.btn-primary(target="_blank" href="https://hackersir.kktix.cc") Go
         div.col-md.col-sm-12.mx-md-4.my-2.py-3.card.border-0.shadow.align-items-center
             div.ratio.ratio-1x1.rounded-3(style="background-color: #FFCE66;")
               img.card-img-top.rounded-circle(src="static/image/SocialMedia.png" style="object-fit: cover;" alt="")
