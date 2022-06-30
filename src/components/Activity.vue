@@ -13,21 +13,27 @@
       h2 傳送門
       div.row
         div.col-md.col-sm-12.mx-md-4.my-2.py-3.card.border-0.shadow.align-items-center
-          div.ratio.ratio-1x1.rounded-3(style="background-color: #FFCE66;")
+          div.ratio.ratio-1x1.rounded-3.img-background-color
             img.card-img-top.rounded-circle(src="static/image/ClubLesson.png" style="object-fit: cover;" alt="")
           div.card-body
             h5.card-title.mb-3 社課
             a.btn.btn-primary(target="_blank" href="https://join.hackersir.org/course/") Go
         div.col-md.col-sm-12.mx-md-4.my-2.py-3.card.border-0.shadow.align-items-center
-          div.ratio.ratio-1x1.rounded-3(style="background-color: #FFCE66;")
+          div.ratio.ratio-1x1.rounded-3.img-background-color
             img.card-img-top.rounded-circle(src="static/image/Workshop.png" style="object-fit: cover;" alt="")
           div.card-body
             h5.card-title.mb-3 講座＆工作坊
             a.btn.btn-primary(target="_blank" href="https://hackersir.kktix.cc") Go
         div.col-md.col-sm-12.mx-md-4.my-2.py-3.card.border-0.shadow.align-items-center
-            div.ratio.ratio-1x1.rounded-3(style="background-color: #FFCE66;")
+            div.ratio.ratio-1x1.rounded-3.img-background-color
               img.card-img-top.rounded-circle(src="static/image/SocialMedia.png" style="object-fit: cover;" alt="")
             div.card-body
               h5.card-title.mb-3 關注粉專
               a.btn.btn-primary(target="_blank" href="https://www.facebook.com/HackerSir.tw/") Go
 </template>
+
+<style scoped lang="stylus">
+.img-background-color {
+  background-color: #FFDCAE;
+}
+</style>
